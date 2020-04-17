@@ -13,11 +13,11 @@ class MyApp extends StatelessWidget {
       //home: HomePage()
       initialRoute: '/',
       routes: getApplicationRoutes(),
-      onGenerateRoute: ( settings ) {
-        return MaterialPageRoute(
-          builder: (BuildContext context) => AlertPage()
-        );
-      },
+      // onGenerateRoute: ( settings ) {
+      //   return MaterialPageRoute(
+      //     builder: (BuildContext context) => AlertPage()
+      //   );
+      // },
     );
   }
 }
